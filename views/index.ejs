@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+  <!-- iunxdev.pl -->
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <body style="background-color:#7289DA;">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <title>dms.xyz</title>
+    <!-- custom css -->
+  <style> 
+    body { 
+ margin: 0;
+ padding: 0;
+ background-image: url("https://images6.alphacoders.com/405/405481.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.buscar-caja {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background: #54c0d3;
+ height: 40px;
+ border-radius: 40px;
+ padding: 10px;
+}
+
+.buscar-caja:hover > .buscar-txt {
+ width: 240px;
+ padding: 0 6px;
+}
+
+.buscar-caja:hover > .buscar-btn {
+ background: white;
+ color: #54c0d3;
+}
+
+
+
+.buscar-btn {
+ color: linear-gradient(to right, red,violet);
+ float: right;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: white;
+ cursor: pointer;
+}
+
+.buscar-btn > i {
+ font-size: 30px;
+}
+
+.buscar-txt {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color:black;
+ font-size: 16px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 0px;
+ font-weight: bold;
+
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fefefe;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #7289DA, #23272A);
+  color: #fff;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #7289DA, #23272A);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+</style>
+ </head>
+ <body>
+   <br>
+   <center><img src=https://media.discordapp.net/attachments/705510031482945687/746799553839366215/plus-icon-transparent-7.jpg?width=384&height=384></center>
+   <br>
+   <!-- main page -->
+    <center><h1 class="content-head content-head-ribbon">dms.xyz - Find server from your dreams!</h1></center>
+    <center><p>Looking for server to for ex. hangout? Type below your tags to search correct server!<p><center>
+      <br>
+      <form class="pure-form pure-form-stacked">
+        <fieldset>
+                <div class="pure-u-1 pure-u-md-1-3">
+                    <select id="multi-state" class="pure-input-1-2">
+                        <option>FUN</option>
+                        <option>GAMING</option>
+                        <option>MUSIC</option>
+                        <option>ANIME</option>
+                        <option>COMMUNITY</option>
+                        <option>TECHNOLOGY</option>
+                        <option>FILMS</option>
+                        <option>OTHER</option>
+                    </select>
+                </div>
+            </div>
+            <label for="multi-terms" class="pure-checkbox">
+              <br>
+                <input type="checkbox" id="multi-terms" /> NSFW?</label>
+                <br>
+            <button type="submit" class="pure-button pure-button-primary">Find</button>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <br>
+            <center><h1 class="content-head content-head-ribbon">Some propostions..</h1></center>
+            <br>
+            <br>
+            <br>
+          </div>
+          <div class="row">
+            <div class="card">
+              <div class="card-header">
+                <h1>sample</h1>
+              </div>
+              <div class="card-body">
+                <p>
+              Server 1
+                </p>
+                <a href="#" class="btn">Join</a>
+                <a href="#" class="btn">Vote</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <h1>sample</h1>
+              </div>
+              <div class="card-body">
+                <p>
+                  Server 2
+                </p>
+                <a href="#" class="btn">Join</a>
+                <a href="#" class="btn">Vote</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <h1>sample</h1>
+              </div>
+              <div class="card-body">
+                <p>
+                  Server 3
+                </p>
+                <a href="#" class="btn">Join</a>
+                <a href="#" class="btn">Vote</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <h1>sample</h1>
+              </div>
+              <div class="card-body">
+                <p>
+                  Server 4
+                </p>
+                <a href="#" class="btn">Join</a>
+                <a href="#" class="btn">Vote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </html>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <footer>
+        <h3>iunxdev.pl 2020 <h3>
+  </div>
+ </body>
+ <br>
+</html>
